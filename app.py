@@ -48,9 +48,9 @@ pd_term_structure.register_callbacks(app)
 distribution_chart.register_callbacks(app)
 
 # Run (deploy render)
-# if __name__ == "__main__":
-#     app.run(debug=False, host="0.0.0.0", port=8080)
-
-## Run (test local)
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False, host="0.0.0.0", port=8080)
+
+# ## Run (test local)
+# if __name__ == "__main__":
+#     app.run(debug=True)
