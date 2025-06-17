@@ -1,0 +1,6 @@
+dash
+pandas
+plotly
+dash_daq
+dash-auth
+openpyxl

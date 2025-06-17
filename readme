@@ -1,0 +1,19 @@
+## FOLDER STRUCTURE
+
+fg_score_dashboard/
+├── app.py                      # Điểm khởi chạy chính
+├── requirements.txt
+├── assets/                     # Chứa CSS nếu có
+├── data/                       # Vị trí dữ liệu    
+├── src/
+│   ├── __init__.py
+│   ├── data_loader.py          # Load profile, score, distribution, risk, term
+│   ├── score_summary.py        # Callback cho company info + summary
+│   ├── score_trend.py          # Callback và biểu đồ trend
+│   ├── risk_component.py       # Pie chart, relative contrib, tables
+│   ├── commentary.py           # Tạo đoạn text phân tích
+│   ├── pd_term_structure.py    # Term structure table
+│   ├── distribution_chart.py   # Chart phân bố
+│   └── auth.py                 # xử lý auth riêng
+├── layout/                     # Layout tách biệt
+│   └── layout.py
